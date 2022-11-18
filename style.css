@@ -1,5 +1,5 @@
 body{
-  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color:rgba(69, 123, 157, 1);
   color:rgba(241, 250, 238, 1)
 
@@ -8,4 +8,13 @@ body{
 #lista {  
   background-color: rgba(168, 218, 220, 1);
   color:rgba(230, 57, 70, 1)
+}
+
+.links {
+  color:rgba(241, 250, 238, 1);
+  background-color: rgba(230, 57, 70, 1);
+  padding: 15px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+
 }
