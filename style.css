@@ -1,30 +1,42 @@
-/** {
+* {
   margin: 0;
   padding: 0;
-}*/
-
-#header {
-  background-image: url(./Conteudo-portifolio/BANNER\ LINKEDIN\ II.png);
-  background-position: right; 
-  background-size: cover;
-  border: 5px solid red;
-  
-}
-
-#header-background {
-
-}
-
-#header-image {
-  
-
 }
 
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color:rgba(69, 123, 157, 1);
   color:rgba(241, 250, 238, 1)
+}
 
+#header {
+ /* background-color: rgba(69, 123, 157, 1);
+  background-position: center; 
+  background-size: cover;*/
+  border: 5px solid red;
+}
+
+#header-background {
+  border: 5px solid blue;
+}
+
+#header-image {
+  border: 5px solid blue;
+}
+
+#header-title {
+  border: 5px solid blue;
+}
+
+#middle {
+  border: 5px solid red;
+}
+
+#middle-text {
+  border: 5px solid blue;
+}
+#middle-list {
+  border: 5px solid blue;
 }
 
 #lista {  
@@ -32,11 +44,20 @@ body{
   color:rgba(230, 57, 70, 1)
 }
 
-.links {
+#footer {
+  border: 5px solid red;
+  display: inline;
+}
+
+#footer-text {
+  border: 5px solid blue;
+}
+
+#footer-links {
+  border: 5px solid blue;
   color:rgba(241, 250, 238, 1);
   background-color: rgba(230, 57, 70, 1);
   padding: 15px 25px;
   border-radius: 6px;
-  text-decoration: none;
-
+  text-decoration: none;  
 }
