@@ -3,61 +3,95 @@
   padding: 0;
 }
 
-body{
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:rgba(69, 123, 157, 1);
-  color:rgba(241, 250, 238, 1)
+  background-color: rgba(69, 123, 157, 1);
+  color: rgba(241, 250, 238, 1);
 }
 
-#header {
- /* background-color: rgba(69, 123, 157, 1);
-  background-position: center; 
-  background-size: cover;*/
-  border: 5px solid red;
+.header-content {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(29, 53, 87, 1);
+  display: flex;
+  justify-content: space-between;
 }
 
-#header-background {
-  border: 5px solid blue;
+#menu {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
 }
 
-#header-image {
-  border: 5px solid blue;
+.middle-content {
+  height: 700px;
+  background-color: rgba(241, 250, 238, 1);
+  color: hsla(215, 50%, 23%, 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-#header-title {
-  border: 5px solid blue;
-}
-
-#middle {
-  border: 5px solid red;
+#cabeca {
+  width: 300px;
 }
 
 #middle-text {
-  border: 5px solid blue;
-}
-#middle-list {
-  border: 5px solid blue;
+  text-align: center;  
 }
 
-#lista {  
-  background-color: rgba(168, 218, 220, 1);
-  color:rgba(230, 57, 70, 1)
+#paragraph-name {
+  font-size: 40px;
+  color: rgba(230, 57, 70, 1);
 }
 
-#footer {
-  border: 5px solid red;
-  display: inline;
+.section-sobre-mim {
+  height: 700px;
 }
 
-#footer-text {
-  border: 5px solid blue;
+#sobre-mim-title {
+  text-align: center;
+  color: hsla(215, 50%, 23%, 1)
 }
 
-#footer-links {
-  border: 5px solid blue;
-  color:rgba(241, 250, 238, 1);
-  background-color: rgba(230, 57, 70, 1);
-  padding: 15px 25px;
-  border-radius: 6px;
-  text-decoration: none;  
+.sobre-mim-container {
+  display: flex;
 }
+
+.sobre-mim {
+  max-width: 50%;
+  padding: 15px;
+}
+
+.skills {
+  padding: 15px;
+}
+
+.skills-container {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(29, 53, 87, 1);
+  border-radius: 10px; 
+  padding: 15px; 
+}
+
+.icone {
+  width: 80px;
+}
+
+.section-project {
+  height: 700px;
+  color: rgba(29, 53, 87, 1);
+  text-align: center;
+  background-color: rgba(241, 250, 238, 1);
+}
+
+.section-contact {
+  height: 200px;
+  text-align: center;
+}
+
