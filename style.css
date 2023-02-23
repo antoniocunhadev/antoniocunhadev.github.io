@@ -10,12 +10,14 @@ body {
 }
 
 .header-content {
-  padding: 10px 30px;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: rgba(29, 53, 87, 1);
+  margin: 15px 50px;
   display: flex;
   justify-content: space-between;
+}
+
+#logo {
+  width: 45px;
+  margin-left: 40px;
 }
 
 #menu {
@@ -49,6 +51,7 @@ body {
 
 .section-sobre-mim {
   height: 700px;
+  margin: 0 25px;
 }
 
 #sobre-mim-title {
@@ -58,19 +61,20 @@ body {
 
 .sobre-mim-container {
   display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
 }
 
 .sobre-mim {
   max-width: 50%;
-  padding: 15px;
-}
-
-.skills {
-  padding: 15px;
 }
 
 .skills-container {
-  max-width: 800px;
+  margin-left: 25px;
+}
+
+.skills-img {
+  max-width: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -81,7 +85,13 @@ body {
 
 .icone {
   width: 80px;
+  margin: 15px;
 }
+
+/* #jest {
+  width: 80px;
+  border: 1px solid red;
+} */
 
 .section-project {
   height: 700px;
@@ -93,5 +103,10 @@ body {
 .section-contact {
   height: 200px;
   text-align: center;
+}
+
+#contact-title {
+  text-align: center;
+  color: hsla(215, 50%, 23%, 1)
 }
 
