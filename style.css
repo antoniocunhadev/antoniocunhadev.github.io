@@ -16,7 +16,7 @@ body {
 }
 
 #logo {
-  width: 45px;
+  width: 50px;
   margin-left: 40px;
 }
 
@@ -24,7 +24,8 @@ body {
   width: 380px;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
+  color: rgba(241, 250, 238, 1);
 }
 
 .middle-content {
@@ -41,7 +42,7 @@ body {
 }
 
 #middle-text {
-  text-align: center;  
+  text-align: center;
 }
 
 #paragraph-name {
@@ -51,12 +52,16 @@ body {
 
 .section-sobre-mim {
   height: 700px;
-  margin: 0 25px;
+  background-image: url(./Conteudo-portifolio/Background-06.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin: 0 25px; */
 }
 
 #sobre-mim-title {
   text-align: center;
-  color: hsla(215, 50%, 23%, 1)
+  color: hsla(215, 50%, 23%, 1);
 }
 
 .sobre-mim-container {
@@ -79,8 +84,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: rgba(29, 53, 87, 1);
-  border-radius: 10px; 
-  padding: 15px; 
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .icone {
@@ -102,11 +107,14 @@ body {
 
 .section-contact {
   height: 150px;
+  background-image: url(./Conteudo-portifolio/Background-06.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
 #contact-title {
   text-align: center;
-  color: hsla(215, 50%, 23%, 1)
+  color: hsla(215, 50%, 23%, 1);
 }
-
