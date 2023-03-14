@@ -1,4 +1,4 @@
-# :rocket Portifólio Antonio Cunha :rocket
+# :rocket: Portifólio Antonio Cunha :rocket:
 
 ### Sejam bem vindos ao meu portifólio!:blush:
 
