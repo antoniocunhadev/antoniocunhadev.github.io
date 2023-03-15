@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f1faeeff;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(69, 123, 157, 1);
@@ -50,14 +56,19 @@ body {
   color: rgba(230, 57, 70, 1);
 }
 
+/* #Background06 {
+  background-image: url(./Conteudo-portifolio/Background-06.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+} */
+
 .section-sobre-mim {
   height: 700px;
-  background-image: url(./Conteudo-portifolio/Background-06.svg);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  background-position: center;
-  /* margin: 0 25px; */
+  margin: 0 25px;
 }
+
+
 
 #sobre-mim-title {
   text-align: center;
@@ -93,11 +104,6 @@ body {
   margin: 15px;
 }
 
-/* #jest {
-  width: 80px;
-  border: 1px solid red;
-} */
-
 .section-project {
   height: 700px;
   color: rgba(29, 53, 87, 1);
@@ -108,7 +114,6 @@ body {
 .section-contact {
   height: 150px;
   background-image: url(./Conteudo-portifolio/Background-06.svg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -118,3 +123,13 @@ body {
   text-align: center;
   color: hsla(215, 50%, 23%, 1);
 }
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 270px;
+}
+
+/* .fa-brands {
+  color: #f1faeeff;
+} */

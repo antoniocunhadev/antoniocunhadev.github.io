@@ -4,23 +4,22 @@
     <meta charset="UTF-8" />
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <header class="header-content"> 
-      <img
-        id="logo"
-        src="./Conteudo-portifolio/Logo portifolio-04.png"
-        alt="logo-antonio"
-      />
-      <section id="menu">
-        <div class="home">Home</div>
-        <div class="sobre">Sobre</div>
-        <div class="projetos">Projetos</div>
-        <div class="contato">Contato</div>
-      </section>
+    <header class="header-content">
+      <a href="#">
+        <img id="logo" src="./Conteudo-portifolio/7.svg" alt="logo-antonio" />
+      </a>
+      <nav id="menu">
+        <a href="#home" class="home">Home</a>
+        <a href="#sobre" class="sobre">Sobre</a>
+        <a href="#projetos" class="projetos">Projetos</a>
+        <a href="#contato" class="contato">Contato</a>
+      </nav>
     </header>
 
-    <middle class="middle-content">
+    <section class="middle-content" id="home">
       <div id="middle-text">
         <p>Olá, meu nome é</p>
         <p id="paragraph-name"><strong>Antonio Cunha</strong></p>
@@ -31,9 +30,9 @@
         src="./Conteudo-portifolio/foto-cabeca.png"
         alt="foto cabeca"
       />
-    </middle>
+    </section>
 
-    <section class="section-sobre-mim">
+    <section class="section-sobre-mim" id="sobre">
       <h2 id="sobre-mim-title">Sobre mim</h2>
       <br />
       <div class="sobre-mim-container">
@@ -54,7 +53,7 @@
           </p>
         </div>
 
-        <div class="skills-container">
+        <nav class="skills-container">
           <h2>Skills:</h2>
           <br />
           <div class="skills-img">
@@ -100,38 +99,39 @@
               alt="github"
             />
           </div>
-        </div>
+        </nav>
       </div>
     </section>
 
-    <section class="section-project">
+    <section class="section-project" id="projetos">
       <h2 id="project-title">Projetos</h2>
       <br />
     </section>
 
-    <section class="section-contact">
+    <footer class="section-contact" id="contato">
       <h2 id="contact-title">Contatos</h2>
       <br />
       <div id="footer">
-        <div id="footer-text">
-          <h3>Me encontre nas redes:</h3>
-          <br />
-        </div>
-        <div id="footer-links">
+        <h3>Me encontre nas redes:</h3>
+        <br />
+        <nav id="footer-links" class="fa-2x">
           <a
             class="links"
             href="https://www.linkedin.com/in/antoniocunhadev/"
             target="_blank"
-            >Linkedin</a
+            ><span class="fa-brands fa-linkedin fa-beat"></span></a
           >
           <a
             class="links"
             href="https://github.com/antoniocunhadev"
             target="_blank"
-            >GitHub</a
+            ><span class="fa-brands fa-github-square fa-beat"></span></a
           >
-        </div>
+          <a class="links" href="http://wa.me/+551366616166" target="_blank"
+            ><span class="fa-brands fa-whatsapp-square fa-beat"></span></a
+          >
+        </nav>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
